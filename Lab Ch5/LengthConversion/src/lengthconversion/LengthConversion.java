@@ -1,7 +1,7 @@
 /*
  * Amos Cabudol
  * CIS 2571-004
- * 02/05/2020
+ * 02/14/2020
  * Lab Ch. 5 Conversion from inch to centimeter
  *
  * This program displays a list of inch to centimeter conversions from 1 inch
