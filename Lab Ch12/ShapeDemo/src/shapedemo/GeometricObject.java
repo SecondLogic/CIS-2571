@@ -1,0 +1,83 @@
+
+package shapedemo;
+
+import java.util.Date;
+
+/**
+ *
+ * @author 
+ */
+public class GeometricObject {
+    private String color = "white";
+    private boolean filled;
+    private Date dateCreated;
+
+    /**
+     * Construct a default GeometricObject
+     */
+    public GeometricObject() {
+        dateCreated = new Date();
+    }
+
+    /**
+     * Construct a GeometricObject with the specified color and filled value
+     *
+     * @param color GeometricObject's color
+     * @param filled whether shape is filled
+     */
+    public GeometricObject(String color, boolean filled) {
+        dateCreated = new Date();
+        this.color = color;
+        this.filled = filled;
+    }
+
+    /**
+     * Gets the GeometricObject's color
+     *
+     * @return the object's color
+     */
+    public String getColor() {
+        return color;
+    }
+
+    /**
+     * Gets the GeometricObject's filled state
+     *
+     * @return true if the object is filled, false if the object isn't filled
+     */
+    public boolean isFilled() {
+        return filled;
+    }
+
+    /**
+     * Gets the GeometricObject's date of creation
+     *
+     * @return creation date
+     */
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
+    /**
+     * Sets the GeometricObject's color
+     *
+     * @param color GeometricObject's new color
+     */
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    /**
+     * Sets the GeometricObject's filled state
+     *
+     * @param filled true or false
+     */
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
+
+    @Override
+    public String toString() {
+        return "Created on " + dateCreated + "\ncolor: " + color + " and filled: " + filled;
+    }
+}
