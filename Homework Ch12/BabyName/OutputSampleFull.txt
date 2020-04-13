@@ -1,0 +1,160 @@
+run:
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 1
+
+Enter name to look up: Aaden
+
+Name Found:
+Name:	Aaden
+Gender:	Male
+Rank:	556
+Births:	448
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 1
+
+Enter name to look up: aaliyah
+
+Name Found:
+Name:	Aaliyah
+Gender:	Female
+Rank:	56
+Births:	4628
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 1
+
+Enter name to look up: ali
+
+Name Found:
+Name:	Ali
+Gender:	Male
+Rank:	357
+Births:	845
+
+Name Found:
+Name:	Ali
+Gender:	Female
+Rank:	726
+Births:	384
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 1
+
+Enter name to look up: Frederico
+Name not found
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 2
+
+Enter rank to look up: 1
+
+Name Found:
+Name:	Jacob
+Gender:	Male
+Rank:	1
+Births:	21875
+
+Name Found:
+Name:	Isabella
+Gender:	Female
+Rank:	1
+Births:	22731
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 2
+
+Enter rank to look up: 50
+
+Name Found:
+Name:	Justin
+Gender:	Male
+Rank:	50
+Births:	7792
+
+Name Found:
+Name:	Alexa
+Gender:	Female
+Rank:	50
+Births:	5012
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 2
+
+Enter rank to look up: -5
+Invalid Rank: Possibly out of range
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 2
+
+Enter rank to look up: asdf
+Invalid Rank: Not a number
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: asdfghjhkfhg
+Invalid option. Please select an option between 1 and 3.
+
+-----------------------------------------
+
+Main menu
+1: Look up a baby name
+2: List a baby name by rank
+3: Exit program
+
+Enter a choice: 3
+
+-----------------------------------------
+
+BUILD SUCCESSFUL (total time: 30 seconds)
